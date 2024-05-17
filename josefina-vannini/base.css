@@ -1,0 +1,94 @@
+﻿:root {
+	--margin-x1: 140px;
+	--margin-x2: 20px;
+	--margin-x3: 50px;
+	--margin-x4: 40px;
+	--hght-box-1: 1000px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+pre {
+	font-family: inherit;
+}
+body {
+	min-width: 100%;
+	background-color: rgb(255 240 230);
+}
+
+/* WEBSITE */
+
+.page {
+	min-height: var(--hght-box-1);
+	/*border: 1px solid #000;*/
+	border-radius: 20px;
+	width: 90vw;
+	margin: 0 auto;
+}
+p {
+	font-family: 'Calibri', sans-serif;
+	font-size: 22px;
+	letter-spacing: -0.25px;
+	line-height: 30px;
+}
+.separator {
+	width: 50%;
+	border-color: black;
+	margin: 150px auto 0 auto;
+}
+.footnote-line {
+	border-color: blanchedalmond;
+}
+/* TEXT */
+
+.txt-italic {
+	font-style: italic;
+}
+.txt-justify {
+	text-align: justify;
+}
+.txt-align-1 {
+	text-align: center;
+}
+.txt-indent-1 {
+	text-indent: 2em;
+}
+.margin-top-1 {
+	padding: var(--margin-x1) 0 0 0;
+}
+.margin-top-bott-1 {
+	padding: var(--margin-x1) 0 var(--margin-x1) 0;
+}
+.margin-top-bott-2 {
+	padding: var(--margin-x2) 0 var(--margin-x2) 0;
+}
+.margin-bott-1 {
+	padding: 0 0 var(--margin-x1) 0;
+}
+.margin-bott-2 {
+	padding: 0 0 var(--margin-x2) 0;
+}
+.margin-bott-3 {
+	padding: 0 0 var(--margin-x3) 0;
+}
+.margin-bott-4 {
+	padding: 0 0 var(--margin-x4) 0;
+}
+.txt-short-space {
+	letter-spacing: 12px;
+}
+
+/* FORMAT */
+
+#legal-info {
+	padding: 120px 0 0 0;
+}
+.references {
+	width: 70%;
+	padding: var(--margin-x3) 0 0 0;
+}
+.references>p {
+	font-size: 20px;
+}
+
